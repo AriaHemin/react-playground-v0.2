@@ -1,7 +1,7 @@
 function Home (){
     return(
         <div className="flex flex-col items-center">
-            <h1>welcome to my website</h1>
+            <h1>welcome to my website just a test</h1>
             <p>check out my apps: </p>
             <ul>
                 <li>
