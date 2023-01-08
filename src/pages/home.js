@@ -1,37 +1,37 @@
 function Home (){
     return(
-        <div className="flex flex-col items-center">
-            <h1>welcome to my website just a test</h1>
-            <p>check out my apps: </p>
+        <div className="flex flex-col items-center bg-gray-100 w-[100%] h-[100vh] ">
+            <h1 className="text-4xl font-bold " >welcome to my website</h1>
+            <p className="text-xl">check out my apps: </p>
             <ul>
-                <li>
+                <li  className="text-blue-500" >
                     <a href="/todoApp">
-                        todoApp
+                        1. todoApp
                     </a>
                 </li>
-                <li>
+                <li className="text-blue-500">
                     <a href="/iwwywApp">
-                        i write what you write app
+                        2. i write what you write app
                     </a>
                 </li>
-                <li>
+                <li className="text-blue-500">
                     <a href="/thriftingOnline">
-                        thriftingOnline
+                        3. thriftingOnline
                     </a>
                 </li>
-                <li>
+                <li className="text-blue-500">
                     <a href="/crazyBgChange">
-                        crazy background change
+                        4. crazy background change
                     </a>
                 </li>
-                <li>
+                <li className="text-blue-500">
                     <a href="/clickDog">
-                        click da dog
+                        5. click da dog
                     </a>
                 </li>
-                <li>
+                <li className="text-blue-500">
                     <a href="/searchYo">
-                        search Yo
+                        6. search Yo
                     </a>
                 </li>
             </ul>
